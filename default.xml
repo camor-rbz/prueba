@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <default sync-j="8" revision="kirkstone"/>
+  <remote name="digi" fetch="ssh://git@stash.digi.com/dey"/>
+
+  <project name="meta-digi.git" path="sources/meta-digi" remote="digi" revision="dey-4.0/master">
+    <copyfile src="sdk/mkproject.sh" dest="mkproject.sh"/>
+  </project>
+  <project name="meta-freescale.git" path="sources/meta-freescale" remote="digi" revision="upstream/kirkstone"/>
+  <project name="meta-fsl-demos.git" path="sources/meta-fsl-demos" remote="digi" revision="upstream/kirkstone"/>
+  <project name="meta-imx.git" path="sources/meta-imx" remote="digi" revision="upstream/kirkstone-5.15.32-2.0.0"/>
+  <project name="meta-st-stm32mp" path="sources/meta-st-stm32mp" remote="digi" revision="upstream/kirkstone"/>
+  <project name="meta-openembedded.git" path="sources/meta-openembedded" remote="digi" revision="upstream/kirkstone"/>
+  <project name="meta-qt5.git" path="sources/meta-qt5" remote="digi" revision="upstream/kirkstone"/>
+  <project name="meta-selinux.git" path="sources/meta-selinux" remote="digi" revision="upstream/kirkstone"/>
+  <project name="meta-swupdate.git" path="sources/meta-swupdate" remote="digi" revision="upstream/kirkstone"/>
+  <project name="meta-timesys.git" path="sources/meta-timesys" remote="digi" revision="upstream/kirkstone"/>
+  <project name="meta-webkit.git" path="sources/meta-webkit" remote="digi" revision="upstream/main"/>
+  <project name="meta-wolfssl.git" path="sources/meta-wolfssl" remote="digi" revision="upstream/kirkstone"/>
+  <project name="poky.git" path="sources/poky" remote="digi" revision="upstream/kirkstone"/>
+</manifest>
